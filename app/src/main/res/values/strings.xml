@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">TourLondon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="british_museum">British Museum</string>
+    <string name="british_museum_hours">10am–5:30pm\nFriday 10am–8:30pm</string>
+    <string name="british_museum_address">Great Russell St, Bloomsbury, London WC1B 3DG</string>
+    <string name="british_museum_phone">020 7323 8299</string>
+    <string name="british_museum_website">www.britishmuseum.org</string>
+    <string name="british_museum_summary">"The British Museum, located in the Bloomsbury area of London, United Kingdom, is a public institution dedicated to human history, art and culture.
+\nThe British Museum has grown to become one of the largest museums in the world, covering an area of over 92,000 m (990,000 sq. ft)."</string>
+
+    <string name="natural_history">Natural History Museum</string>
+    <string name="natural_history_hours">10am–5:50pm</string>
+    <string name="natural_history_address">Cromwell Rd, Kensington, London SW7 5BD</string>
+    <string name="natural_history_phone">020 7942 5511</string>
+    <string name="natural_history_website">www.nhm.ac.uk</string>
+    <string name="natural_history_summary">"The Natural History Museum in London is a natural history museum that exhibits a vast range of specimens from various segments of natural history.
+\nBuilt in two distinct phases, with two new buildings adjacent to the main Waterhouse building, it is the most significant new development project in the museum's history."</string>
+
+    <string name="science">Science Museum</string>
+    <string name="science_hours">10am–6pm</string>
+    <string name="science_address">Exhibition Rd, Kensington, London SW7 2DD</string>
+    <string name="science_phone">0333 241 4000</string>
+    <string name="science_website">https://www.sciencemuseum.org.uk/</string>
+    <string name="science_summary">"The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually.
+\nIt was, for a number of years, run in conjunction with the Library of Imperial College, but in 2007 the Library was divided over two sites."</string>
+
+    <string name="v_and_a">Victoria and Albert Museum</string>
+    <string name="v_and_a_hours">10am–5:45pm\nFriday 10am–10pm</string>
+    <string name="v_and_a_address">Cromwell Rd, Knightsbridge, London SW7 2RL</string>
+    <string name="v_and_a_phone">020 7942 2000</string>
+    <string name="v_and_a_website">https://www.vam.ac.uk/</string>
+    <string name="v_and_a_summary">"The Victoria and Albert Museum in London is the world's largest museum of decorative arts and design, housing a permanent collection of over 2.3 million objects. It was founded in 1852 and named after Queen Victoria and Prince Albert.
+\nNear it are the Natural History Museum, the Science Museum, Imperial College, the Albert Hall and the Albert Memorial."</string>
+
+    <string name="tate">Tate Modern</string>
+    <string name="tate_hours">10am–6pm\nFriday and Saturday 10am-10pm</string>
+    <string name="tate_address">Bankside, London SE1 9TG</string>
+    <string name="tate_phone">020 7887 8888</string>
+    <string name="tate_website">www.tate.org.uk/</string>
+    <string name="tate_summary">"Tate is an institution that houses the United Kingdom's
+        national collection of British art, and international modern and contemporary art."</string>
+
+    <string name="national_gallery">National Gallery</string>
+    <string name="national_gallery_hours">10am–6pm\nFriday 10am-9pm</string>
+    <string name="national_gallery_address">Trafalgar Square, London WC2N 5DN</string>
+    <string name="snational_gallery_phone">020 7747 2885</string>
+    <string name="national_gallery_website">https://www.nationalgallery.org.uk/</string>
+    <string name="national_gallery_summary">"The National Gallery is an art museum in Trafalgar Square in the City of Westminster, in Central London. Founded in 1824, it houses a collection of over 2,300 paintings dating from the mid-13th century to 1900.
+\nNational Gallery is the third-most visited museum in the United Kingdom by visitor count annually (5,229,192)."</string>
+
+    <string name="transport_museum">London Transport Museum</string>
+    <string name="transport_museum_hours">10am–6pm</string>
+    <string name="transport_museum_address">Covent Garden Piazza, London WC2E 7BB</string>
+    <string name="transport_museum_phone">020 7379 6344</string>
+    <string name="transport_museum_website">https://www.ltmuseum.co.uk/</string>
+    <string name="transport_museum_summary">"The London Transport Museum, or LT Museum based in Covent Garden, London, seeks to conserve and explain the transport heritage of Britain's capital city.
+\nThe market moved out in 1971, and the building was occupied by the London Transport Museum in 1980."</string>
+
+    <string name="museum_of_london">Museum of London</string>
+    <string name="museum_of_london_hours">10am–6pm</string>
+    <string name="museum_of_london_address">150 London Wall, London EC2Y 5HN</string>
+    <string name="museum_of_london_phone">020 7001 9844</string>
+    <string name="museum_of_london_website">https://www.museumoflondon.org.uk/</string>
+    <string name="museum_of_london_summary">"The Museum of London documents the history of the English capital city from prehistoric to modern times.
+"</string>
+
+    <string name="navigate">Navigate</string>
+
+</resources>
