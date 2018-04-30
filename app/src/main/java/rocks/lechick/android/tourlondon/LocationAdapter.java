@@ -2,11 +2,15 @@ package rocks.lechick.android.tourlondon;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -21,7 +25,7 @@ public class LocationAdapter extends BaseAdapter {
     private final ArrayList<Location> locations;
 
 
-    public LocationAdapter(Context context, ArrayList<Location> locations)  {
+    public LocationAdapter(Context context, ArrayList<Location> locations) {
         this.mContext = context;
         this.locations = locations;
     }
@@ -42,30 +46,35 @@ public class LocationAdapter extends BaseAdapter {
         return null;
     }
 
+    public static class ViewHolder {
+        public ImageView imageView;
+        public TextView locationName;
+    }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // 1
         final Location currentLoc = locations.get(position);
+        ViewHolder view;
 
         // 2
         if (convertView == null) {
+            view = new ViewHolder();
             final LayoutInflater layoutInflater = LayoutInflater.from(mContext);
-            convertView = layoutInflater.inflate(R.layout.grid_element, null);
+
+            view.locationName = (TextView) convertView.findViewById(R.id.grid_item_name);
+            view.imageView = (ImageView) convertView.findViewById(R.id.grid_thumbnail);
+            convertView.setTag(view);
+        }
+        else
+        {
+            view = (ViewHolder) convertView.getTag();
         }
 
-        // 3
-        final TextView locationName = (TextView) convertView.findViewById(R.id.grid_item_name);
-        final ImageView imageView = (ImageView) convertView.findViewById(R.id.grid_thumbnail);
-
-
-        // 4
-        imageView.setImageResource(currentLoc.getmAttractionImage1());
-        locationName.setText(currentLoc.getmAttractionName());
+        view.locationName.setText(currentLoc.getmAttractionName());
+        view.imageView.setImageResource(currentLoc.getmAttractionImage1());
 
         return convertView;
     }
-
-
 
 }

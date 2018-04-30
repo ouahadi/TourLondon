@@ -68,15 +68,13 @@ public class MuseumsFragment extends Fragment {
                 false ));
 
 
-
-
-
         View view = inflater.inflate(R.layout.fragment_museums,container,false);
 
 
         GridView gridview = (GridView) view.findViewById(R.id.gridview);
         final LocationAdapter gridAdaptor = new LocationAdapter(getActivity(), locations);
         gridview.setAdapter(gridAdaptor);
+
 
         view = gridview;
         return view;

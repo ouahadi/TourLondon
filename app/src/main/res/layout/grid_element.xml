@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<GridViewItem
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="200dp"
     android:layout_height="200dp"
     >
 
-    <ImageView
+    <rocks.lechick.android.tourlondon.SquareImageView
         android:id="@+id/grid_thumbnail"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,7 +19,7 @@
         android:textSize="24sp"
         android:padding="8dp"
         android:background="@color/colorLimeSemi"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"/>
+        android:textAlignment="viewEnd"
+        android:gravity="end"/>
 
-</RelativeLayout>
+</GridViewItem>
