@@ -20,14 +20,15 @@ public class LocationAdapter extends BaseAdapter {
     private final Context mContext;
     private final ArrayList<Location> locations;
 
-    public LocationAdapter(Context context, ArrayList<> locations)  {
+
+    public LocationAdapter(Context context, ArrayList<Location> locations)  {
         this.mContext = context;
         this.locations = locations;
     }
 
     @Override
     public int getCount() {
-        return locations.length;
+        return locations.size();
     }
 
     @Override
@@ -45,7 +46,7 @@ public class LocationAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // 1
-        final Location currentLoc = locations[position];
+        final Location currentLoc = locations.get(position);
 
         // 2
         if (convertView == null) {

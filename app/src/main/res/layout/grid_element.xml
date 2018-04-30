@@ -17,7 +17,9 @@
         android:layout_height="wrap_content"
         android:text="@string/british_museum"
         android:textSize="24sp"
+        android:padding="8dp"
         android:background="@color/colorLimeSemi"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
