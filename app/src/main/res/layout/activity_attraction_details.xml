@@ -69,26 +69,28 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginLeft="16dp">
 
             <ImageView
                 android:id="@+id/website"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:src="@drawable/globe"
                 android:layout_weight="1"/>
 
             <ImageView
                 android:id="@+id/pin"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:src="@drawable/pin"
                 android:layout_weight="1"/>
 
             <ImageView
                 android:id="@+id/phone"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:src="@drawable/phone"
                 android:layout_weight="1"/>
 
