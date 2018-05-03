@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#071A52</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark">#071A52</color>
+    <color name="colorPrimary">#303F9F</color>
     <color name="colorAccent">#17B978</color>
     <color name="colorLime">#A7FF83</color>
     <color name="colorLimeSemi">#80A7FF83</color>
+    <color name="colorWhiteSemi">#80FFFFFF</color>
+    <color name="colorAccentSemi">#8017B978</color>
+    <color name="colorDarkerBlue">#071A52</color>
+    <color name="colorBlue">#303F9F</color>
 </resources>

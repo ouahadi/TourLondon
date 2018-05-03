@@ -20,12 +20,12 @@ import java.util.ArrayList;
  * Created by alek on 26/04/2018.
  */
 
-public class LocationAdapter extends BaseAdapter {
+public class AttractionsAdapter extends BaseAdapter {
     private final Context mContext;
     private final ArrayList<Location> locations;
 
 
-    public LocationAdapter(Context context, ArrayList<Location> locations) {
+    public AttractionsAdapter(Context context, ArrayList<Location> locations) {
         this.mContext = context;
         this.locations = locations;
     }
@@ -56,11 +56,13 @@ public class LocationAdapter extends BaseAdapter {
         // 1
         final Location currentLoc = locations.get(position);
         ViewHolder view;
+        final LayoutInflater layoutInflater = LayoutInflater.from(mContext);
 
         // 2
         if (convertView == null) {
             view = new ViewHolder();
-            final LayoutInflater layoutInflater = LayoutInflater.from(mContext);
+            convertView = layoutInflater.inflate(R.layout.grid_element, null);
+
 
             view.locationName = (TextView) convertView.findViewById(R.id.grid_item_name);
             view.imageView = (ImageView) convertView.findViewById(R.id.grid_thumbnail);
@@ -76,5 +78,7 @@ public class LocationAdapter extends BaseAdapter {
 
         return convertView;
     }
+
+
 
 }

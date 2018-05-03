@@ -6,22 +6,25 @@
     <string name="british_museum">British Museum</string>
     <string name="british_museum_hours">10am–5:30pm\nFriday 10am–8:30pm</string>
     <string name="british_museum_address">Great Russell St, Bloomsbury, London WC1B 3DG</string>
-    <string name="british_museum_phone">020 7323 8299</string>
-    <string name="british_museum_website">www.britishmuseum.org</string>
+    <string name="british_museum_address_link">https://goo.gl/maps/TJXvBkB2iKP2</string>
+    <string name="british_museum_phone">+442073238299</string>
+    <string name="british_museum_website">http://www.britishmuseum.org</string>
     <string name="british_museum_summary">"The British Museum, located in the Bloomsbury area of London, United Kingdom, is a public institution dedicated to human history, art and culture.
 \nThe British Museum has grown to become one of the largest museums in the world, covering an area of over 92,000 m (990,000 sq. ft)."</string>
 
     <string name="natural_history">Natural History Museum</string>
     <string name="natural_history_hours">10am–5:50pm</string>
     <string name="natural_history_address">Cromwell Rd, Kensington, London SW7 5BD</string>
+    <string name="natural_history_address_link">https://goo.gl/maps/cnanxAnNFzS2</string>
     <string name="natural_history_phone">020 7942 5511</string>
-    <string name="natural_history_website">www.nhm.ac.uk</string>
+    <string name="natural_history_website">http://www.nhm.ac.uk</string>
     <string name="natural_history_summary">"The Natural History Museum in London is a natural history museum that exhibits a vast range of specimens from various segments of natural history.
 \nBuilt in two distinct phases, with two new buildings adjacent to the main Waterhouse building, it is the most significant new development project in the museum's history."</string>
 
     <string name="science">Science Museum</string>
     <string name="science_hours">10am–6pm</string>
     <string name="science_address">Exhibition Rd, Kensington, London SW7 2DD</string>
+    <string name="science_address_link">https://goo.gl/maps/PakgTxJoZf52</string>
     <string name="science_phone">0333 241 4000</string>
     <string name="science_website">https://www.sciencemuseum.org.uk/</string>
     <string name="science_summary">"The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually.
@@ -30,6 +33,7 @@
     <string name="v_and_a">Victoria and Albert Museum</string>
     <string name="v_and_a_hours">10am–5:45pm\nFriday 10am–10pm</string>
     <string name="v_and_a_address">Cromwell Rd, Knightsbridge, London SW7 2RL</string>
+    <string name="v_and_a_address_link">https://goo.gl/maps/cnanxAnNFzS2</string>
     <string name="v_and_a_phone">020 7942 2000</string>
     <string name="v_and_a_website">https://www.vam.ac.uk/</string>
     <string name="v_and_a_summary">"The Victoria and Albert Museum in London is the world's largest museum of decorative arts and design, housing a permanent collection of over 2.3 million objects. It was founded in 1852 and named after Queen Victoria and Prince Albert.
@@ -38,6 +42,7 @@
     <string name="tate">Tate Modern</string>
     <string name="tate_hours">10am–6pm\nFriday and Saturday 10am-10pm</string>
     <string name="tate_address">Bankside, London SE1 9TG</string>
+    <string name="tate_address_link">https://goo.gl/maps/YazhSNGuRcz</string>
     <string name="tate_phone">020 7887 8888</string>
     <string name="tate_website">www.tate.org.uk/</string>
     <string name="tate_summary">"Tate is an institution that houses the United Kingdom's
@@ -46,6 +51,8 @@
     <string name="national_gallery">National Gallery</string>
     <string name="national_gallery_hours">10am–6pm\nFriday 10am-9pm</string>
     <string name="national_gallery_address">Trafalgar Square, London WC2N 5DN</string>
+    <string name="national_gallery_address_link">https://goo.gl/maps/5vARPXVRuWR2</string>
+
     <string name="snational_gallery_phone">020 7747 2885</string>
     <string name="national_gallery_website">https://www.nationalgallery.org.uk/</string>
     <string name="national_gallery_summary">"The National Gallery is an art museum in Trafalgar Square in the City of Westminster, in Central London. Founded in 1824, it houses a collection of over 2,300 paintings dating from the mid-13th century to 1900.
@@ -54,6 +61,7 @@
     <string name="transport_museum">London Transport Museum</string>
     <string name="transport_museum_hours">10am–6pm</string>
     <string name="transport_museum_address">Covent Garden Piazza, London WC2E 7BB</string>
+    <string name="transport_museum_address_link">https://goo.gl/maps/fNWPvpoQFPG2</string>
     <string name="transport_museum_phone">020 7379 6344</string>
     <string name="transport_museum_website">https://www.ltmuseum.co.uk/</string>
     <string name="transport_museum_summary">"The London Transport Museum, or LT Museum based in Covent Garden, London, seeks to conserve and explain the transport heritage of Britain's capital city.
@@ -62,11 +70,95 @@
     <string name="museum_of_london">Museum of London</string>
     <string name="museum_of_london_hours">10am–6pm</string>
     <string name="museum_of_london_address">150 London Wall, London EC2Y 5HN</string>
+    <string name="museum_of_london_address_link">https://goo.gl/maps/jWG7VERE9Ey</string>
     <string name="museum_of_london_phone">020 7001 9844</string>
     <string name="museum_of_london_website">https://www.museumoflondon.org.uk/</string>
     <string name="museum_of_london_summary">"The Museum of London documents the history of the English capital city from prehistoric to modern times.
 "</string>
 
     <string name="navigate">Navigate</string>
+
+    <string name="hyde_park">Hyde Park</string>
+    <string name="hyde_park_address_link">https://goo.gl/maps/2yT9mSzgqr22</string>
+    <string name="hyde_park_summary">"Hyde Park is a Grade I-listed major park in Central London.
+        It is the largest of four Royal Parks that form a chain from the entrance of Kensington
+        Palace through Kensington Gardens and Hyde Park. The bandstand in Hyde Park was
+        originally built in Kensington Gardens in 1869, moving to its current location in 1886."</string>
+
+    <string name="battersea_park">Battersea Park</string>
+    <string name="battersea_park_address_link">https://goo.gl/maps/C1AR6SAZUg32</string>
+    <string name="battersea_park_summary">"Battersea Park is a 200-acre green space at Battersea
+        in the London Borough of Wandsworth in London. It is situated on the south bank
+        of the River Thames opposite Chelsea and was opened in 1858."</string>
+
+    <string name="regents_park">"Regent's Park"</string>
+    <string name="regents_park_address_link">https://goo.gl/maps/z4Jem6squTM2</string>
+    <string name="regents_park_summary">"Regent's Park is one of the Royal Parks of London.
+        It lies within north-west London, partly in the City of Westminster and partly in
+        the London Borough of Camden. It contains Regent's University London and the London Zoo."</string>
+
+    <string name="st_james_park">"St James's Park"</string>
+    <string name="st_james_park_address_link">https://goo.gl/maps/fEiUWHm8C9z</string>
+    <string name="st_james_park_summary">"St James's Park is a 23-hectare park in the City of
+        Westminster, central London. The park lies at the southernmost tip of the St James's
+        area, which was named after a leper hospital dedicated to St James the Less."</string>
+
+    <string name="national_theatre">Royal National Theatre</string>
+    <string name="national_theatre_whats_on">Absolute Hell</string>
+    <string name="national_theatre_address">Upper Ground, Lambeth, London SE1 9PX</string>
+    <string name="national_theatre_address_link">https://goo.gl/maps/dW2xfcyVfn72</string>
+    <string name="national_theatre_phone">020 7452 3000</string>
+    <string name="national_theatre_website">https://www.nationaltheatre.org.uk/</string>
+    <string name="national_theatre_summary">"The Royal National Theatre in London, commonly known
+        as the National Theatre is one of the United Kingdom's three most prominent publicly
+        funded performing arts venues, alongside the Royal Shakespeare Company and the Royal Opera House."</string>
+
+    <string name="roh">Royal Opera House</string>
+    <string name="roh_whats_on">Obsidian Tear/Marguerite and Armand/Elite Syncopations</string>
+    <string name="roh_address">Bow St, London WC2E 9DD</string>
+    <string name="roh_address_link">https://goo.gl/maps/E1pKJoEWsDu</string>
+    <string name="roh_phone">020 7240 1200</string>
+    <string name="roh_website">http://www.roh.org.uk/</string>
+    <string name="roh_summary">"The Royal Opera House is an opera house and major
+        performing arts venue in Covent Garden, central London."</string>
+
+    <string name="sadlers_wells">Sadler's Wells Theatre</string>
+    <string name="sadlers_wells_whats_on">Formosa</string>
+    <string name="sadlers_wells_address">Rosebery Ave, Clerkenwell, London EC1R 4TN</string>
+    <string name="sadlers_wells_address_link">https://goo.gl/maps/x5BnzHt2JNK2</string>
+    <string name="sadlers_wells_phone">020 7863 8000</string>
+    <string name="sadlers_wells_website">https://www.sadlerswells.com/</string>
+    <string name="sadlers_wells_summary">"Sadler's Wells Theatre is a performing arts venue in
+        Clerkenwell, London, England located on Rosebery Avenue. The present-day theatre is the
+        sixth on the site since 1683."</string>
+
+    <string name="barbican">Barbican Centre</string>
+    <string name="barbican_whats_on">Mary Chapin Carpenter</string>
+    <string name="barbican_address">Silk St, London EC2Y 8DS</string>
+    <string name="barbican_address_link">https://goo.gl/maps/HQA3veCPGWr</string>
+    <string name="barbican_phone">020 7638 4141</string>
+    <string name="barbican_website">www.barbican.org.uk</string>
+    <string name="barbican_summary">"The Barbican Centre is a performing arts centre
+        in the Barbican Estate of the City of London and the largest of its kind in Europe."</string>
+
+    <string name="regents_canal">"Regent's Canal"</string>
+    <string name="regents_canal_address_link">https://goo.gl/maps/ip3S6YfP7vr</string>
+    <string name="regents_canal_summary">"Regent's Canal is a canal across an area just north of central
+        London, England. It provides a link from the Paddington Arm of the Grand Union Canal, 500 m
+        north-west of Paddington Basin in the west, to the Limehouse Basin and the River Thames in
+        east London. The canal is 13.8 kilometres (8.6 miles) long."</string>
+
+    <string name="new_river_path">"New River Path"</string>
+    <string name="new_river_path_address_link">https://goo.gl/maps/Ajsgj1conzD2</string>
+    <string name="new_river_path_summary">"Originally, it ended at the New River Head in Islington -
+        just south of Sadler's Wells. It now ends at Stoke Newington. Over time, the course of the
+        River has been reduced by the use of viaducts and tunnels. There is a signed walk, developed
+        by Thames Water, along 28 miles, following the functional part of the River and some stretches
+        of disused course. About half of the walk is in London. We will start this walk at the New River Head."</string>
+
+    <string name="primrose_hill">"Primrose Hill"</string>
+    <string name="primrose_link">https://goo.gl/maps/o2QVDL3eQLF2</string>
+    <string name="primrose_summary">"Primrose Hill is a hill of 213 feet located on the northern side of
+        Regent's Park in London, and also the name was given to the surrounding district."</string>
 
 </resources>

@@ -2,7 +2,6 @@ package rocks.lechick.android.tourlondon;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.FragmentStatePagerAdapter;
 
 
 /**
@@ -11,7 +10,7 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    private String tabTitles[] = new String[] { "Museums", "Parks", "Theatres", "Adventures" };
+    private String tabTitles[] = new String[] { "Museums", "Parks", "Theatres", "Walks" };
 
 
 
@@ -28,7 +27,7 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
         } else if (position == 2) {
             return new TheatresFragment();
         } else {
-            return new RestaurantsFragment();
+            return new WalksFragment();
         }
     }
 

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkerBlue">
+
+    <rocks.lechick.android.tourlondon.CutLayout
+        android:id="@+id/museum_photo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/attraction_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/british_museum"
+            android:scaleType="centerCrop"/>
+    </rocks.lechick.android.tourlondon.CutLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/museum_photo"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/attraction_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/british_museum"
+            android:textSize="36sp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorLimeSemi"
+            android:layout_gravity="end"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/working_hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/british_museum_hours"
+            android:textAlignment="textEnd"
+            android:textSize="22sp"
+            android:textColor="@color/colorAccentSemi"
+            android:layout_gravity="end"/>
+
+
+        <TextView
+            android:id="@+id/summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/british_museum_summary"
+            android:textSize="22sp"
+            android:textColor="@color/colorLimeSemi"
+            android:textAlignment="textEnd"
+            android:layout_gravity="end"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp">
+
+            <ImageView
+                android:id="@+id/website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/globe"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pin"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phone"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
