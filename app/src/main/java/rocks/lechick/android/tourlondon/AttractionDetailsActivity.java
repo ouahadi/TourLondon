@@ -1,17 +1,16 @@
 package rocks.lechick.android.tourlondon;
 
-import android.annotation.SuppressLint;
+
 import android.content.Intent;
 import android.net.Uri;
-import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class AttractionDetailsActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,14 +60,15 @@ public class AttractionDetailsActivity extends AppCompatActivity {
         });
 
         ImageView phone = (ImageView) findViewById(R.id.phone);
-        if (extras.containsKey("LocationWebsite")) {
-            phone.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent intent = getIntent();
-                    Intent i = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + intent.getStringExtra("LocationPhone")));
-                    startActivity(i);
-                }
+        if (extras.containsKey("LocationPhone")) {
+            phone.setOnClickListener(new View.OnClickListener() {@Override
+            public void onClick(View view) {
+                Intent intent = getIntent();
+                Intent i = new Intent(Intent.ACTION_DIAL);
+                i.setData(Uri.parse("tel:" + intent.getStringExtra("LocationPhone")));
+                startActivity(i);
+
+            }
             });
         }
         else {

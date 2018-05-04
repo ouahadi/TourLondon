@@ -145,13 +145,13 @@ public class Location {
         return mAttractionAddressWebsite;
     }
 
-    public Location(String vAttractionName, String vTheatreWhatsOn, String vAttractionAddress,
-                    String vAttractionAddressWebsite, String vAttractionPhone, String vAttractionSummary,
+    public Location(String vAttractionName, String vTheatreWhatsOn, String vAttractionAddressWebsite,
+                    String vAttractionWebsite, String vAttractionPhone, String vAttractionSummary,
                     int vAttractionImage1, boolean vStarred) {
         mAttractionName = vAttractionName;
         mTheatreWhatsOn = vTheatreWhatsOn;
-        mAttractionAddress = vAttractionAddress;
         mAttractionAddressWebsite = vAttractionAddressWebsite;
+        mAttractionWebsite = vAttractionWebsite;
         mAttractionPhone = vAttractionPhone;
         mAttractionSummary = vAttractionSummary;
         mAttractionImage1 = vAttractionImage1;
@@ -164,6 +164,7 @@ public class Location {
     public String getmTheatreWhatsOn() {
         return mTheatreWhatsOn;
     }
+
 
 
 }

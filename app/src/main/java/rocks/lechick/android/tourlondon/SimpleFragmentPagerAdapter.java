@@ -1,4 +1,5 @@
 package rocks.lechick.android.tourlondon;
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -10,12 +11,21 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    private String tabTitles[] = new String[] { "Museums", "Parks", "Theatres", "Walks" };
+    private Context mContext;
+    private String tabTitles[];
 
 
 
-    public SimpleFragmentPagerAdapter(FragmentManager fm) {
+
+    public SimpleFragmentPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
+        this.mContext = context;
+        tabTitles = new String[] {
+                mContext.getResources().getString(R.string.museums),
+                mContext.getResources().getString(R.string.parks),
+                mContext.getResources().getString(R.string.theatres),
+                mContext.getResources().getString(R.string.walks)
+        };
     }
 
     @Override

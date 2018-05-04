@@ -1,8 +1,6 @@
 package rocks.lechick.android.tourlondon;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -11,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -35,22 +32,22 @@ public class TheatresFragment extends Fragment {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
         locations.add(new Location(this.getString(R.string.national_theatre), this.getString(R.string.national_theatre_whats_on),
-                this.getString(R.string.national_theatre_address), this.getString(R.string.national_theatre_address_link),
+                this.getString(R.string.national_theatre_address_link), this.getString(R.string.national_theatre_website),
                 this.getString(R.string.national_theatre_phone), this.getString(R.string.national_theatre_summary),
                 R.drawable.national_theatre,false ));
 
         locations.add(new Location(this.getString(R.string.roh), this.getString(R.string.roh_whats_on),
-                this.getString(R.string.roh_address), this.getString(R.string.roh_address_link),
+                this.getString(R.string.roh_address_link), this.getString(R.string.roh_website),
                 this.getString(R.string.roh_phone), this.getString(R.string.roh_summary),
                 R.drawable.royal_opera,false ));
 
         locations.add(new Location(this.getString(R.string.sadlers_wells), this.getString(R.string.sadlers_wells_whats_on),
-                this.getString(R.string.sadlers_wells_address), this.getString(R.string.sadlers_wells_address_link),
+                this.getString(R.string.sadlers_wells_address_link), this.getString(R.string.sadlers_wells_website),
                 this.getString(R.string.sadlers_wells_phone), this.getString(R.string.sadlers_wells_summary),
                 R.drawable.sadlers_wells,false ));
 
         locations.add(new Location(this.getString(R.string.barbican), this.getString(R.string.barbican_whats_on),
-                this.getString(R.string.barbican_address), this.getString(R.string.barbican_address_link),
+                this.getString(R.string.barbican_address_link), this.getString(R.string.barbican_website),
                 this.getString(R.string.barbican_phone), this.getString(R.string.barbican_summary),
                 R.drawable.barbican_theatre,false ));
 
@@ -72,9 +69,12 @@ public class TheatresFragment extends Fragment {
                 Bundle attractionDetails = new Bundle();
                 attractionDetails.putString("LocationName", selectedAttraction.getmAttractionName());
                 attractionDetails.putString("LocationLink", selectedAttraction.getmAttractionAddressWebsite());
+                Log.v("addresslink", "This is fucking address link" + selectedAttraction.getmAttractionAddressWebsite());
                 attractionDetails.putString("LocationWebsite", selectedAttraction.getmAttractionWebsite());
+                Log.v("website", "This is fucking website" + selectedAttraction.getmAttractionWebsite());
                 attractionDetails.putString("ExtraBit", selectedAttraction.getmTheatreWhatsOn());
                 attractionDetails.putString("LocationSummary", selectedAttraction.getmAttractionSummary());
+                attractionDetails.putString("LocationPhone", selectedAttraction.getmAttractionPhone());
                 attractionDetails.putInt("Image", selectedAttraction.getmAttractionImage1());
                 attractionDetails.putInt("Position", position);
                 openDetails.putExtras(attractionDetails);

@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">TourLondon</string>
 
+    <string name="museums">Museums</string>
+    <string name="parks">Parks</string>
+    <string name="theatres">Theatres</string>
+    <string name="walks">Walks</string>
+
+    <string-array name="Location_types">
+        <item>Museums</item>
+        <item>Parks</item>
+        <item>Theatres</item>
+        <item>Walks</item>
+    </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="british_museum">British Museum</string>
