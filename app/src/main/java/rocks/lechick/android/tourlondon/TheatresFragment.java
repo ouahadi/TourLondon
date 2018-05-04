@@ -69,9 +69,9 @@ public class TheatresFragment extends Fragment {
                 Bundle attractionDetails = new Bundle();
                 attractionDetails.putString("LocationName", selectedAttraction.getmAttractionName());
                 attractionDetails.putString("LocationLink", selectedAttraction.getmAttractionAddressWebsite());
-                Log.v("addresslink", "This is fucking address link" + selectedAttraction.getmAttractionAddressWebsite());
+                Log.v("addresslink", "This is  address link" + selectedAttraction.getmAttractionAddressWebsite());
                 attractionDetails.putString("LocationWebsite", selectedAttraction.getmAttractionWebsite());
-                Log.v("website", "This is fucking website" + selectedAttraction.getmAttractionWebsite());
+                Log.v("website", "This is  website" + selectedAttraction.getmAttractionWebsite());
                 attractionDetails.putString("ExtraBit", selectedAttraction.getmTheatreWhatsOn());
                 attractionDetails.putString("LocationSummary", selectedAttraction.getmAttractionSummary());
                 attractionDetails.putString("LocationPhone", selectedAttraction.getmAttractionPhone());

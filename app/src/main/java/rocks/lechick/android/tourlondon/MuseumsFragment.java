@@ -90,8 +90,7 @@ public class MuseumsFragment extends Fragment {
                 attractionDetails.putString("LocationLink", selectedAttraction.getmAttractionAddress());
                 attractionDetails.putString("ExtraBit", selectedAttraction.getmAttractionHours());
                 attractionDetails.putString("LocationWebsite", selectedAttraction.getmAttractionWebsite());
-                Log.v("website", "This is fucking website" + selectedAttraction.getmAttractionWebsite());
-
+                Log.v("website", "This is  website" + selectedAttraction.getmAttractionWebsite());
                 attractionDetails.putString("LocationSummary", selectedAttraction.getmAttractionSummary());
                 attractionDetails.putString("LocationPhone", selectedAttraction.getmAttractionPhone());
                 attractionDetails.putInt("Image", selectedAttraction.getmAttractionImage1());
